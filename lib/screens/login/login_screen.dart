@@ -21,7 +21,7 @@ class _LoginScreenState extends State<LoginScreen>
   bool _obscure = true;
   bool _loading = false;
 
-  // @keyframes float → translateY(0) ↔ translateY(-10px) cada 6s
+  // animacion que estaba en el css
   late final AnimationController _floatCtrl;
   late final Animation<double> _floatAnim;
 
