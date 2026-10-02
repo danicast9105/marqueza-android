@@ -1,0 +1,30 @@
+name: marqueza
+description: "Aplicacion movil del proyecto formativo"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.13.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  # Dependecia que sirve para la persistencia local (REEMPLAZA LOCAL STORAGE)
+  shared_preferences: ^2.2.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Se indica en que ruta están las imagenes
+  assets:
+    - assets/images/
